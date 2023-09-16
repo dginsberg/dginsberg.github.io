@@ -4,6 +4,7 @@ permalink: /teaching/
 title: Teaching 2 test
 description:
 nav: true
+years: [2026]
 nav_order: 6
 ---
 
