@@ -1,12 +1,24 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+title: Teaching
+description:
 nav: true
 nav_order: 5
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+All course materials hosted on [Canvas](https://canvas.princeton.edu/)
 
-Organize your courses by years, topics, or universities, however you like!
+Fall 2022: MAT320: Introduction to Real Analysis
+
+Spring 2022: MAT322/APC350: Introduction to Differential Equations
+
+Fall 2021: MAT104: Calculus II
+
+Summer 2018: MAT302: Differential equations with applications (Johns Hopkins University)
+
+Summer 2016: MAT302: Differential equations with applications (Johns Hopkins University)
+
+Summer 2015: MAT302: Differential equations with applications (Johns Hopkins University)
+
+Summer 2014: MAT108: Calculus 1 (Johns Hopkins University)
