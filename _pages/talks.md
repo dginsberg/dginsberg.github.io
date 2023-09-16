@@ -12,10 +12,10 @@ Selected talks.
 For a complete list, [see my CV](/assets/pdf/cv.pdf).
 
 
-<div class="publications">
-    <h2 class="year">{2022}</h2>
-    {% bibliography -f talks -q @*[talkyear={{2022}}*%}
-</div>
+<!-- <div class="publications"> -->
+<!--     <h2 class="year">{2022}</h2> -->
+<!--     {% bibliography -f talks -q @*[talkyear={{2022}}*%} -->
+<!-- </div> -->
 
 
 <!-- <div class="publications"> -->
