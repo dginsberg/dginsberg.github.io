@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /talks/
-title: Talks
+title: talks
 description:
 years: [2022, 2020]
 nav: true
