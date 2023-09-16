@@ -1,8 +1,8 @@
 ---
 layout: post
-title: a post with bibliography
+title: example of a seminar post
 date: 2023-09-16 09:56:00-0400
-description: an example of a blog post with bibliography
+description: an example seminar post
 tags: formatting bib
 categories: sample-posts
 giscus_comments: true
