@@ -23,6 +23,6 @@ on problems in fluid dynamics, plasma physics, and general relativity.
 I am a member of the [Simons collaboration on hidden symmetries and fusion energy](https://hiddensymmetries.princeton.edu/).
 
 You can find my [current CV here](assets/pdf/cv.pdf),
-and a list of [publications here](/~dg42/publications).
+and a list of [publications here](/publications).
 
 I am an organizer of the [CUNY GC Harmonic Analysis & PDE Seminar](https://sites.google.com/view/cuny-hapde/home), and the [Brooklyn College Colloquium](https://).
