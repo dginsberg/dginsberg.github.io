@@ -1,5 +1,17 @@
 #!/bin/bash
 
+# Paths to the PDF files
+local_pdf="assets/pdf/cv.pdf"
+source_pdf="/Users/dan/Dropbox (Personal)/Current CV/cv.pdf"
+
+# Check if the source PDF is newer than the local one
+if [[ "$source_pdf" -nt "$local_pdf" ]]; then
+  echo "Copying the newer PDF from $source_pdf to $local_pdf"
+  cp "$source_pdf" "$local_pdf"
+else
+  echo "The local PDF is already up to date."
+fi
+
 # Display the current Git status
 git status
 
