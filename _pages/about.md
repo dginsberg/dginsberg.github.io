@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About
+title: about
 permalink: /
 subtitle: Department of Mathematics, Brooklyn College -- CUNY
 profile:
