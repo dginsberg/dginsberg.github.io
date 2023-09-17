@@ -8,4 +8,4 @@ categories:
 giscus_comments: false
 related_posts: false
 ---
-An example of a seminar post.
+An example of a seminar post. Replace the date with the date of the seminar.
