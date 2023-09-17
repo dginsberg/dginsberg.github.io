@@ -1,5 +1,5 @@
 ---
-layout: noheaderpage
+layout: page
 permalink: /bcmsc/
 title: Brooklyn College Mathematical Sciences Colloquium
 description: Listing of Brooklyn College Mathematical Sciences Colloquium talks

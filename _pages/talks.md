@@ -9,7 +9,7 @@ nav_order: 2
 ---
 <!-- _pages/publications.md -->
 
-Selected talks. For an up-to-date list, see my CV.
+Selected talks. For an up-to-date list, see my <a href="/assets/pdf/cv.pdf">CV</a>.
 
 <div class="publications">
 
