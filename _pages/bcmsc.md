@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: noheaderpage
 title: The Brooklyn College Mathematical Sciences Colloquium
 permalink: /bcmsc/
 description: 
@@ -16,6 +16,6 @@ horizontal: false
   <div class="pubtitle">{{ pub.title }}</div>
   <div class="pubauthors">{{ pub.authors }}</div>
   <div class="pubinfo">{{ pub.date }}, {{ pub.year}}</div>
-  {% include colloquia.html %}
 </div>
+  {% include colloquia.html %}
 {% endfor %}
