@@ -16,6 +16,6 @@ horizontal: false
   <div class="pubtitle">{{ pub.title }}</div>
   <div class="pubauthors">{{ pub.authors }}</div>
   <div class="pubinfo">{{ pub.date }}, {{ pub.year}}</div>
+  {% include colloquia.html %}
 </div>
 {% endfor %}
-
