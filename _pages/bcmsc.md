@@ -8,7 +8,8 @@ nav_order: 2
 horizontal: false
 ---
 <!-- pages/bcmsc.md -->
-<h1 class="mt-4">Publications</h1>
+
+<h1 class="mt-4">Talks</h1>
 {% assign publications = site.colloquia | sort: "year" | reverse %}
 {% for pub in publications %}
 <div class="pubitem">
@@ -17,4 +18,10 @@ horizontal: false
   <div class="pubinfo">{{ pub.publication }}, {{ pub.year}}</div>
 </div>
 {% endfor %}
+
+{% assign talks2 = site.colloquia}
+{% for t in talks2 %}
+    {% include projects.html %}
+{% endfor %}
+
 
