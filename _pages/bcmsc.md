@@ -4,11 +4,13 @@ title: bcmsc
 permalink: /bcmsc/
 pagination:
   enabled: true
-  collection: colloquiumtalks
-  permalink: /page/:num/
+  collection: bcmsc
+  permalink: /bcmsc/:num/
   per_page: 5
   sort_field: date
   sort_reverse: true
+nav: false
+nav_order: 2
  ---
 <!-- _pages/bcmsc.md -->
 
