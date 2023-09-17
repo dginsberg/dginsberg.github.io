@@ -1,7 +1,7 @@
 ---
-layout: noheaderpage
-title: bcmsc
-permalink: /bcmsc/
+layout: default
+title: colloquium
+permalink: /colloq/
 pagination:
   enabled: true
   collection: colloquiumtalks
@@ -10,7 +10,6 @@ pagination:
   sort_field: date
   sort_reverse: true
  ---
-<!-- _pages/bcmsc.md -->
 
 <div class="post">
 
