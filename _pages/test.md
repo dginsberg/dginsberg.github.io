@@ -2,7 +2,7 @@
 layout: test
 permalink: /test/
 title: a test
-description:
+description: a test page
 nav: false
 nav_order: 5
 ---
