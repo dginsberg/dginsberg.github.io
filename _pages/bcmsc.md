@@ -10,9 +10,52 @@ horizontal: false
 <!-- pages/bcmsc.md -->
 
 test
+---
+layout: page
+title: projects
+permalink: /projects/
+description: A growing collection of your cool projects.
+nav: true
+nav_order: 2
+display_categories: [work, fun]
+horizontal: false
+---
 
-{% assign talk = site.colloquia }
-{% for t in talk %}
-    {{t.title}}
-{% endfor %}
+<!-- pages/projects.md -->
+<div class="projects">
+<!-- Display projects without categories -->
+  {%- assign sorted_projects = site.colloquia | sort: "year" -%}
+  <!-- Generate cards for each project -->
+  {% if page.horizontal -%}
+  <div class="container">
+    <div class="row row-cols-2">
+    {%- for project in sorted_projects -%}
+      {% include projects_horizontal.html %}
+    {%- endfor %}
+    </div>
+  </div>
+  {%- else -%}
+  <div class="grid">
+    {%- for project in sorted_projects -%}
+      {% include projects.html %}
+    {%- endfor %}
+  </div>
+  {%- endif -%}
+</div>
+
+
+here is what happens in container mode:
+<div class="projects">
+<!-- Display projects without categories -->
+  {%- assign sorted_projects = site.colloquia | sort: "year" -%}
+  <!-- Generate cards for each project -->
+  <div class="container">
+    <div class="row row-cols-2">
+    {%- for project in sorted_projects -%}
+      {% include projects_horizontal.html %}
+    {%- endfor %}
+    </div>
+  </div>
+
+
 
