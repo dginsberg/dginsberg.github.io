@@ -1,11 +1,10 @@
 ---
-layout: noheaderpage
-title: sample talk
-description: an example talk
-img: assets/img/12.jpg
-importance: 1
-category: work
-related_publications: einstein1956investigations, einstein1950meaning
+layout: page
+title: project 5
+description: a project with a background image
+img: assets/img/1.jpg
+importance: 3
+category: fun
 ---
 
 Every project has a beautiful feature showcase page.
