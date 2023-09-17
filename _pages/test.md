@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: noheaderpage
 permalink: /test/
 title: a test
 description: a test page
