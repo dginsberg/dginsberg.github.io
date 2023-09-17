@@ -26,9 +26,9 @@ horizontal: true
   margin-bottom: 0.75em;
 }</style>
 
-<h1 class="mt-4">Publications</h1>
-{% assign publications = site.publications | sort: "year" | reverse %}
-{% for pub in publications %}
+<h1 class="mt-4">Talks</h1>
+{% assign colloquia = site.colloquia | sort: "year" | reverse %}
+{% for pub in colloquia %}
 <div class="pubitem">
   <div class="pubtitle">{{ pub.title }}</div>
   <div class="pubauthors">{{ pub.authors }}</div>
