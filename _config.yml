@@ -127,7 +127,7 @@ permalink: /colloquium/:year/:title/
 
 # Pagination
 pagination:
-  enabled: false #not sure if I want this?
+  enabled: true 
 
 related_blog_posts:
   enabled: false
