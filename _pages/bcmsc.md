@@ -8,59 +8,14 @@ nav_order: 2
 horizontal: false
 ---
 <!-- pages/bcmsc.md -->
-
-<div class="projects">
-<!-- Display projects without categories -->
-  {%- assign sorted_projects = site.colloquia | sort: "year" -%}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal -%}
-  <div class="container">
-    <div class="row row-cols-2">
-    {%- for project in sorted_projects -%}
-      {% include projects_horizontal.html %}
-    {%- endfor %}
-    </div>
+  {%- assign sorted_talks = site.colloquia | sort: "year" -%}
+  <div class="header-bar">
+    <h1>{{  The Brooklyn College Mathematical Sciences Colloquium }}</h1>
   </div>
-  {%- else -%}
-  <div class="grid">
-    {%- for project in sorted_projects -%}
-      {% include projects.html %}
-    {%- endfor %}
-  </div>
-  {%- endif -%}
-</div>
-
-
-here is what happens in container mode:
-<div class="projects">
-<!-- Display projects without categories -->
-  {%- assign sorted_projects = site.colloquia | sort: "year" -%}
-  <!-- Generate cards for each project -->
-  <div class="container">
-    <div class="row row-cols-2">
-    {%- for project in sorted_projects -%}
-      {% include projects_horizontal.html %}
-    {%- endfor %}
-    </div>
-  </div>
-
-  an attempt to make rows longer?
-  <div class="projects">
-<!-- Display projects without categories -->
-  {%- assign sorted_projects = site.colloquia | sort: "year" -%}
-  <!-- Generate cards for each project -->
-  <div class="container">
-    <div class="row row-cols">
-    {%- for project in sorted_projects -%}
-      {% include projects_horizontal.html %}
-    {%- endfor %}
-    </div>
-  </div>
-
-
+  {% endif %}
 more scratchwork:
 
- {%- for project in sorted_projects -%}
+ {%- for talk in sorted_talks -%}
       {% include projects_horizontal.html %}
  {%- endfor %}
 
