@@ -17,3 +17,4 @@ horizontal: false
   <div class="pubinfo">{{ pub.publication }}, {{ pub.year}}</div>
 </div>
 {% endfor %}
+

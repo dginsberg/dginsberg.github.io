@@ -3,6 +3,7 @@ layout: page
 title: project 4
 description: another without an image
 img:
+year: 2003
 importance: 3
 category: fun
 ---
