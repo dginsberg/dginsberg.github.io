@@ -1,10 +1,10 @@
 ---
 layout: noheaderpage
 permalink: /talks2/
-title: talks
+title: talks2
 description:
 years: [2022, 2020]
-nav: true
+nav: false
 nav_order: 2
 ---
 <!-- _pages/publications.md -->
