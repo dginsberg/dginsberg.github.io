@@ -1,5 +1,5 @@
 ---
-layout: noheaderpage
+layout: page
 title: The Brooklyn College Mathematical Sciences Colloquium
 permalink: /bcmsc/
 description: 
@@ -7,11 +7,11 @@ nav: false
 nav_order: 2
 horizontal: false
 ---
-<!-- pages/projects.md -->
+<!-- pages/bcmsc.md -->
 
-<h1 class="mt-4">Publications</h1>
-{% assign publications = site.colloquia | sort: "year" | reverse %}
-{% for pub in publications %}
+<h1 class="mt-4">Talks</h1>
+{% assign talks = site.colloquia | sort: "year" | reverse %}
+{% for pub in talks %}
 <div class="pubitem">
   <div class="pubtitle">{{ pub.title }}</div>
   <div class="pubauthors">{{ pub.authors }}</div>
