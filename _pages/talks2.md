@@ -1,5 +1,5 @@
 ---
-layout: noheaderpage
+layout: page
 permalink: /talks2/
 title: talks
 description:
