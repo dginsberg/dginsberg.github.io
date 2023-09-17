@@ -1,5 +1,5 @@
 ---
-layout: noheaderpage
+layout: seminarmainpage
 title: The Brooklyn College Mathematical Sciences Colloquium
 permalink: /bcmsc/
 description: 
@@ -8,9 +8,6 @@ nav_order: 2
 horizontal: false
 ---
 <!-- pages/bcmsc.md -->
-  <div class="header-bar">
-    <h1>{{  The Brooklyn College Mathematical Sciences Colloquium }}</h1>
-  </div>
 
 more scratchwork:
 
