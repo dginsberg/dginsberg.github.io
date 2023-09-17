@@ -9,19 +9,10 @@ horizontal: false
 ---
 <!-- pages/bcmsc.md -->
 
-<h1 class="mt-4">Talks</h1>
-{% assign publications = site.colloquia | sort: "year" | reverse %}
-{% for pub in publications %}
-<div class="pubitem">
-  <div class="pubtitle">{{ pub.title }}</div>
-  <div class="pubauthors">{{ pub.authors }}</div>
-  <div class="pubinfo">{{ pub.publication }}, {{ pub.year}}</div>
-</div>
-{% endfor %}
+test
 
-{% assign talks2 = site.colloquia}
-{% for t in talks2 %}
-    {% include projects.html %}
+{% assign talk = site.colloquia }
+{% for t in talk %}
+    {{t.title}}
 {% endfor %}
-
 
