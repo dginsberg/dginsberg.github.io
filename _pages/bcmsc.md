@@ -1,8 +1,8 @@
 ---
 layout: noheaderpage
-title: bcmsc
+title: The Brooklyn College Mathematical Sciences Colloquium
 permalink: /bcmsc/
-description: the talks
+description: 
 nav: false
 nav_order: 2
 horizontal: false
@@ -27,7 +27,7 @@ horizontal: false
   {%- else -%}
   <div class="grid">
     {%- for project in sorted_projects -%}
-      {% include projects.html %}
+      {% include colloquiua.html %}
     {%- endfor %}
   </div>
   {%- endif -%}
