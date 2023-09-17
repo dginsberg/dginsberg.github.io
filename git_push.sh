@@ -40,5 +40,5 @@ if [[ "$watch_option" == "y" ]]; then
   gh run watch --exit-status
   echo "run completed and successful"
 else
-  echo "Not watching the action."
+  echo "Not watching the deployment."
 fi
