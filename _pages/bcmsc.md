@@ -5,19 +5,17 @@ permalink: /bcmsc/
 description: 
 nav: false
 nav_order: 2
-horizontal: true
+horizontal: false
 ---
 <!-- pages/projects.md -->
-<style>
-</style>
 
-<h1 class="mt-4">Talks</h1>
-{% assign talks = site.colloquia | sort: "year" | reverse %}
-{% for talk in talks %}
+<h1 class="mt-4">Publications</h1>
+{% assign publications = site.colloquia | sort: "year" | reverse %}
+{% for pub in publications %}
 <div class="pubitem">
-  <div class="pubtitle">{{ talk.title }}</div>
-  <div class="pubauthors">{{ talk.date }}</div>
-  <div class="pubinfo">{{ talk.category }}, {{ talk.year}}</div>
+  <div class="pubtitle">{{ pub.title }}</div>
+  <div class="pubauthors">{{ pub.authors }}</div>
+  <div class="pubinfo">{{ pub.date }}, {{ pub.year}}</div>
 </div>
 {% endfor %}
 
