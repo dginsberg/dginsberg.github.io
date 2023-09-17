@@ -2,7 +2,7 @@
 layout: noheaderpage
 permalink: /bcmsc/
 title: Brooklyn College Mathematical Sciences Colloquium
-description: Listing of Brooklyn College Mathematical Sciences Colloquium talks
+description: 
 nav: false
 nav_order: 5
 giscus_comments: false
