@@ -32,3 +32,12 @@ else
   git push
 fi
 
+# Prompt to watch the action
+read -p "Do you want to watch the deployment? (y/n): " watch_option
+
+if [[ "$watch_option" == "y" ]]; then
+  # Open a new Terminal window and run "gh run watch"
+  open -a Terminal -n -e 'gh run watch --exit-status && echo "run completed and successful"'
+else
+  echo "Not watching the deployment."
+fi
