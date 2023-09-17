@@ -173,6 +173,10 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  colloquiumtalks:
+    layout: post
+    output: true
+    permalink: /colloquium/:path/
 
 announcements:
   enabled: true
