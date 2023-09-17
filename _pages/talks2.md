@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: noheaderpage
 permalink: /talks2/
 title: talks
 description:
@@ -7,7 +7,7 @@ years: [2022, 2020]
 nav: true
 nav_order: 2
 ---
-<!-- _pages/talks2.md -->
+<!-- _pages/publications.md -->
 <div class="publications">
 
 {%- for y in page.years %}

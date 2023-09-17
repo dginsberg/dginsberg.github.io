@@ -1,5 +1,5 @@
 ---
-layout: noheaderpage
+layout: default
 title: bcmsc
 permalink: /bcmsc/
 pagination:
