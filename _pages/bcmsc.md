@@ -1,6 +1,7 @@
 ---
 layout: noheaderpage
-title: colloquium
+title: bcmsc
+permalink: /bcmsc/
 pagination:
   enabled: true
   collection: colloquiumtalks
