@@ -56,4 +56,8 @@ horizontal: true
 
 
 
+todo on this page:
+1) change title format to look like the blog format
+2) figure out why the individual talk pages aren't being produced
+
 </div>
