@@ -1,7 +1,7 @@
 ---
 layout: noheaderpage
 title: The Brooklyn College Mathematical Sciences Colloquium
-permalink: /bcmsc/
+permalink: /colloquia/
 description: 
 nav: false
 nav_order: 2

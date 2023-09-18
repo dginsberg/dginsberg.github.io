@@ -175,7 +175,7 @@ collections:
     permalink: /projects/:path/
   colloquia:
     output: true
-    permalink: /bcmsc/:path/
+    permalink: /colloquia/:path/
 
 announcements:
   enabled: true
