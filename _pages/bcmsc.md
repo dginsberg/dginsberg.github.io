@@ -15,7 +15,7 @@ horizontal: false
 <!-- Display projects without categories -->
   {%- assign sorted_projects = site.colloquia | sort: "year" -%}
   <!-- Generate cards for each project -->
-    <div class="row row-cols">
+    <div class="row row-cols-1">
     {%- for project in sorted_projects -%}
       {% include projects_horizontal.html %}
     {%- endfor %}
