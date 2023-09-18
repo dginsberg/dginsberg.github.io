@@ -173,10 +173,7 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
-  bcmsc:
-    output: true
-    permalink: /bcmsc/:path/
-  bcms:
+  bcmc:
     output: true
     permalink: /bcms/:path/
 

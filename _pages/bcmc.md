@@ -1,8 +1,8 @@
 ---
 layout: noheaderpage
-title: bcms
-permalink: /bcms/
-description: A growing collection of your cool projects.
+title: bcmc
+permalink: /bcmc/
+description: The Brooklyn College Math Colloquium
 nav: false
 nav_order: 2
 display_categories: 
