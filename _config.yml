@@ -176,6 +176,9 @@ collections:
   colloquia:
     output: true
     permalink: /colloquia/:path/
+  testproj:
+    output: true
+    permalink: /testproj/:path/
 
 announcements:
   enabled: true
