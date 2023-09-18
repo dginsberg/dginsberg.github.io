@@ -7,7 +7,15 @@ nav: false
 nav_order: 2
 horizontal: true
 ---
-<!-- pages/bcmsc.md -->
+
+
+  <div class="header-bar">
+    <h1>{{ The Brooklyn College Mathematical Sciences Colloquium
+ }}</h1>
+    <h2>{{ a test description }}</h2>
+  </div>
+
+<!-- pages/colloquia.md -->
 <div class="projects">
 {%- if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
