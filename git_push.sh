@@ -16,6 +16,8 @@ fi
 git_status=$(git status --porcelain)
 if [ -n "$git_status" ]; then
   # Changes exist, add all changes
+
+  git status
   git add --all
 
   # Prompt for a commit message
