@@ -174,7 +174,6 @@ collections:
     output: true
     permalink: /projects/:path/
   colloquia:
-    layout: post
     output: true
     permalink: /bcmsc/:path/
 
