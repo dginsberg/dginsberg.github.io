@@ -4,7 +4,6 @@ title: Tarek Elgindi
 description: Talk title
 img: assets/img/elgindi.png
 talkdate: "10/26/2023"
-abstract: 
 year: 2
 ---
 

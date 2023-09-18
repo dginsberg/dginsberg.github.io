@@ -1,6 +1,6 @@
 ---
-layout: noheaderpage
-title: The Brooklyn College Mathematics Colloquim
+layout: noheaderpagecolloq
+title: The Brooklyn College Mathematics Colloquium
 permalink: /bcmc/
 description: 
 nav: false
