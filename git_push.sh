@@ -13,13 +13,9 @@ else
 fi
 
 # Display the current Git status
-git status
-
-# Check if the branch is up to date with the remote
-if git pull --rebase --quiet; then
-  echo "Your branch is already up to date with the remote."
-else
-  # Add all changes
+git_status=$(git status --porcelain)
+if [ -n "$git_status" ]; then
+  # Changes exist, add all changes
   git add --all
 
   # Prompt for a commit message
@@ -30,6 +26,8 @@ else
 
   # Push the changes to the remote repository
   git push
+else
+  echo "No changes to commit."
 fi
 
 # Prompt to watch the action

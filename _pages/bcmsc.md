@@ -14,7 +14,7 @@ horizontal: true
   {%- for category in page.display_categories %}
   <h2 class="category">{{ category }}</h2>
   {%- assign categorized_seminars = site.colloquia | where: "category", category -%}
-  {%- assign sorted_seminars = categorized_seminars | sort: "importance" %}
+  {%- assign sorted_seminars = categorized_seminars | sort: "date" %}
   <!-- Generate cards for each seminar -->
   {% if page.horizontal -%}
   <div class="container">
@@ -35,7 +35,7 @@ horizontal: true
 
 {%- else -%}
 <!-- Display seminars without categories -->
-  {%- assign sorted_seminars = site.colloquia | sort: "importance" -%}
+  {%- assign sorted_seminars = site.colloquia | sort: "date" -%}
   <!-- Generate cards for each seminar -->
   {% if page.horizontal -%}
   <div class="container">
