@@ -3,7 +3,7 @@ layout: noheaderpage
 title: Tarek Elgindi
 description: Talk title
 img: assets/img/elgindi.png
-date: "10/26/2023"
+talkdate: "10/26/2023"
 year: 2
 ---
 
