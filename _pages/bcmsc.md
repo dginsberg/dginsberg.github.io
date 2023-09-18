@@ -1,5 +1,5 @@
 ---
-layout: seminarmainpage
+layout: noheaderpage
 title: The Brooklyn College Mathematical Sciences Colloquium
 permalink: /bcmsc/
 description: 
@@ -9,10 +9,23 @@ horizontal: false
 ---
 <!-- pages/bcmsc.md -->
 
+  an attempt to make rows longer?
+  <div class="projects">
+<!-- Display projects without categories -->
+  {%- assign sorted_projects = site.colloquia | sort: "year" -%}
+  <!-- Generate cards for each project -->
+  <div class="container">
+    <div class="row row-cols">
+    {%- for project in sorted_projects -%}
+      {% include projects_horizontal.html %}
+    {%- endfor %}
+    </div>
+  </div>
+
+
 more scratchwork:
 
- {%- assign sorted_talks = site.colloquia | sort: "year" -%}
- {%- for talk in sorted_talks -%}
-      {%- include projects_horizontal.html -%}
+ {%- for project in sorted_projects -%}
+      {% include projects_horizontal.html %}
  {%- endfor %}
 
