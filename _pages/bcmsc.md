@@ -35,7 +35,7 @@ horizontal: true
 
 {%- else -%}
 <!-- Display projects without categories -->
-  {%- assign sorted_projects = site.colloquia | sort: "importance" -%}
+  {%- assign sorted_projects = site.colloquia | sort: "date" -%}
   <!-- Generate cards for each project -->
   {% if page.horizontal -%}
   <div class="container">
@@ -54,17 +54,6 @@ horizontal: true
   {%- endif -%}
 {%- endif -%}
 
-
-
-test:
-
- <div class="row">
- {%- for project in sorted_projects -%}
-     <div class="col-sm-8">{{project.title}}</div>
-     <div class="col-sm-4">{{project.date}}
-{%- endfor %}
- </div>
-</div>
 
 
 </div>
