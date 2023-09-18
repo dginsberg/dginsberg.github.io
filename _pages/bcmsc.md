@@ -11,11 +11,11 @@ horizontal: true
 
 <div class="projects">
 
-  {%- assign sorted_projects = site.colloquia | sort: "year" -%}
+  {%- assign sorted_seminars = site.colloquia}
   <!-- Generate cards for each project -->
   <div class="container">
     <div class="row row-cols-1">
-    {%- for project in sorted_projects -%}
+    {%- for seminar in sorted_seminars -%}
       {% include projects_horizontal.html %}
     {%- endfor %}
     </div>
