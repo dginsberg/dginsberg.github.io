@@ -5,6 +5,7 @@ description: second speaker talk title
 img: assets/img/3.jpg
 importance: 2
 year: 1
+date: "11/26/2023"
 giscus_comments: true
 ---
 
