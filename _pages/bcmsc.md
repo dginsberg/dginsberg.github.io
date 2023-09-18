@@ -20,7 +20,7 @@ horizontal: true
   <div class="container">
     <div class="row row-cols-1">
     {%- for project in sorted_projects -%}
-      {% include colloquia_horizontal.html %}
+      {% include projects_horizontal.html %}
     {%- endfor %}
     </div>
   </div>
@@ -41,7 +41,7 @@ horizontal: true
   <div class="container">
     <div class="row row-cols-1">
     {%- for project in sorted_projects -%}
-      {% include colloquia_horizontal.html %}
+      {% include projects_horizontal.html %}
     {%- endfor %}
     </div>
   </div>
