@@ -1,19 +1,21 @@
 ---
 layout: noheaderpage
-title: The Brooklyn College Mathematical Sciences Colloquium
+title: bcmsc
 permalink: /bcmsc/
-description: 
+description: A growing collection of your cool projects.
 nav: false
 nav_order: 2
+display_categories: 
 horizontal: true
 ---
-<!-- pages/bcmsc.md -->
+
+<!-- pages/projects.md -->
 <div class="projects">
 {%- if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {%- for category in page.display_categories %}
   <h2 class="category">{{ category }}</h2>
-  {%- assign categorized_projects = site.colloquia | where: "category", category -%}
+  {%- assign categorized_projects = site.bcmsc | where: "category", category -%}
   {%- assign sorted_projects = categorized_projects | sort: "importance" %}
   <!-- Generate cards for each project -->
   {% if page.horizontal -%}
@@ -35,7 +37,7 @@ horizontal: true
 
 {%- else -%}
 <!-- Display projects without categories -->
-  {%- assign sorted_projects = site.colloquia | sort: "date" -%}
+  {%- assign sorted_projects = site.bcmsc | sort: "importance" -%}
   <!-- Generate cards for each project -->
   {% if page.horizontal -%}
   <div class="container">
@@ -53,13 +55,5 @@ horizontal: true
   </div>
   {%- endif -%}
 {%- endif -%}
-
-
-
-todo on this page:
-1) change title format to look like the blog format
-2) figure out why the individual talk pages aren't being produced
-    3) making a testproj with same colloquium files did not work. should next try copying
-    the original "project" files from al-folio.
-
 </div>
+

@@ -173,9 +173,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
-  colloquia:
+  bcmsc:
     output: true
-    permalink: /colloquia/:path/
+    permalink: /bcmsc/:path/
   testproj:
     output: true
     permalink: /testproj/:path/
