@@ -10,7 +10,7 @@ horizontal: true
 <!-- pages/bcmsc.md -->
 
 <div class="projects">
-  {%- assign sorted_seminars = site.colloquia %}
+  {%- assign sorted_seminars = site.colloquia -%}
   <!-- Generate cards for each project -->
   <div class="container">
     <div class="row row-cols-1">
