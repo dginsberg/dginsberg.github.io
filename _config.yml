@@ -176,9 +176,9 @@ collections:
   bcmsc:
     output: true
     permalink: /bcmsc/:path/
-  tproj:
+  bcms:
     output: true
-    permalink: /ttproj/:path/
+    permalink: /bcms/:path/
 
 
 announcements:
