@@ -175,7 +175,7 @@ collections:
     permalink: /projects/:path/
   bcmc:
     output: true
-    permalink: /bcms/:path/
+    permalink: /bcmc/:path/
 
 
 announcements:
