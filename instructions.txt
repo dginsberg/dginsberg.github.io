@@ -1,0 +1,1 @@
+make changes whereever needed and run ./git_push.sh to push changes to the site
