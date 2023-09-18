@@ -53,4 +53,22 @@ horizontal: true
   </div>
   {%- endif -%}
 {%- endif -%}
+
+
+
+test:
+
+<div class="row">
+ <div class="col-sm-8">col-sm-8</div>
+ <div class="col-sm-4">col-sm-4</div>
+</div>
+ {%- for project in sorted_projects -%}
+    <div class="row">
+ <div class="col-sm-8">{{project.title}}</div>
+ <div class="col-sm-4">{{project.date}}
+ </div>
+{%- endfor %}
+</div>
+
+
 </div>

@@ -1,6 +1,6 @@
 ---
 layout: noheaderpage
-title: Talk 1
+title: Tarek Elgindi
 description: Tarek Elgindi (Duke University)
 img: assets/img/12.jpg
 date: "2023-10-26"
