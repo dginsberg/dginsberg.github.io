@@ -13,6 +13,6 @@ more scratchwork:
 
  {%- assign sorted_talks = site.colloquia | sort: "year" -%}
  {%- for talk in sorted_talks -%}
-      {% include projects_horizontal.html %}
+      {%- include projects_horizontal.html -%}
  {%- endfor %}
 
