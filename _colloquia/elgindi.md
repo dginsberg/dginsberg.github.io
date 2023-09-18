@@ -8,4 +8,4 @@ importance: 2
 year: 2023
 ---
 
-abstract is: foo
+abstract is foo
