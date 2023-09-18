@@ -1,10 +1,9 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
+title: a second speaker
+description: second speaker talk title
 img: assets/img/3.jpg
 importance: 2
-category: work
 year: 1
 giscus_comments: true
 ---
