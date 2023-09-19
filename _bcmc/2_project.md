@@ -6,7 +6,6 @@ img: assets/img/3.jpg
 importance: 2
 year: 1
 talkdate: "11/26/2023"
-giscus_comments: true
 ---
 
 Every project has a beautiful feature showcase page.
