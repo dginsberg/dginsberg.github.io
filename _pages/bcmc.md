@@ -1,5 +1,5 @@
 ---
-layout: noheaderpagecolloq
+layout: colloqpage
 title: The Brooklyn College Mathematics Colloquium
 permalink: /bcmc/
 description: 
