@@ -5,12 +5,8 @@ layout: noheader
         <div class="post">
 
           <header class="post-header">
-            <p class="card-text">{{ project.talkdate }}</p>
-            <h3 class="card-title">{{ project.title }}</h3>
-            <p class="card-text">Title: {{ project.description }}</p> 
-<!-- to avoid having to redefine too many things, "description" is really the title -->
-            <p class="card-text">Abstract: {{ project.abstract }}</p>
-            <p class="card-text">Location: {{ project.location }}</p>
+            <h1 class="post-title">TEST {{ page.title }}</h1>
+            <p class="post-description">{{ page.description }}</p>
           </header>
 
           <article>
