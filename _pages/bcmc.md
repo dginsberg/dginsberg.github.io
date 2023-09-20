@@ -5,7 +5,7 @@ permalink: /bcmc/
 description: 
 nav: false
 nav_order: 2
-display_categories: [2023, 2022]
+display_categories: [2023]
 horizontal: true
 ---
 
