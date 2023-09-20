@@ -5,7 +5,7 @@ permalink: /bcmc/
 description: 
 nav: false
 nav_order: 2
-display_categories: [2022, 2023]
+display_categories: [2023, 2022]
 horizontal: true
 ---
 
@@ -15,7 +15,7 @@ horizontal: true
   <!-- Display categorized projects -->
   {%- for year in page.display_categories %}
   <h2 class="category">{{ year }}</h2>
-  {%- assign categorized_projects = site.bcmc | where: "talkyear", year | reverse-%}
+  {%- assign categorized_projects = site.bcmc | where: "talkyear", year -%}
   {%- assign sorted_projects = categorized_projects | sort: "talkdate" %}
   <!-- Generate cards for each project -->
   {% if page.horizontal -%}
