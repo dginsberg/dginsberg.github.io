@@ -5,7 +5,7 @@ permalink: /bcmc/
 description: 
 nav: false
 nav_order: 2
-display_categories: 
+display_categories: [talkyear]
 horizontal: true
 ---
 
@@ -16,11 +16,11 @@ horizontal: true
   {%- for category in page.display_categories %}
   <h2 class="category">{{ category }}</h2>
   {%- assign categorized_projects = site.bcmc | where: "category", category -%}
-  {%- assign sorted_projects = categorized_projects | sort: "talkdate" %}
+  {%- assign sorted_projects = categorized_projects | sort: "importance" %}
   <!-- Generate cards for each project -->
   {% if page.horizontal -%}
   <div class="container">
-    <div class="row row-cols-1">
+    <div class="row row-cols-2">
     {%- for project in sorted_projects -%}
       {% include projects_horizontal.html %}
     {%- endfor %}
@@ -37,16 +37,18 @@ horizontal: true
 
 {%- else -%}
 <!-- Display projects without categories -->
-  {%- assign sorted_projects = site.bcmc | sort: "talkdate" -%}
+
+  {%- assign sorted_projects = site.bcmc | sort: "importance" -%}
   <!-- Generate cards for each project -->
   {% if page.horizontal -%}
   <div class="container">
-    <div class="row row-cols-1">
+    <div class="row row-cols-2">
     {%- for project in sorted_projects -%}
       {% include projects_horizontal.html %}
     {%- endfor %}
     </div>
   </div>
+  
   {%- else -%}
   <div class="grid">
     {%- for project in sorted_projects -%}

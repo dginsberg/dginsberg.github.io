@@ -2,10 +2,11 @@
 layout: page
 title: a second speaker
 description: second speaker talk title
-img: assets/img/3.jpg
+img: 
 importance: 2
 year: 1
 talkdate: "11/26/2023"
+talkyear: "2022"
 ---
 
 Every project has a beautiful feature showcase page.
