@@ -1,5 +1,5 @@
 ---
-layout: noheaderpage
+layout: page
 title: Tarek Elgindi (Duke University)
 description: TBA
 abstract: TBA
