@@ -71,11 +71,12 @@ blockquote {
 
   .card-title {
     color: var(--global-text-color);
+    font-size: 0.5rem
   }
 
   .card-item {
     width: auto;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
 
     .row {
       display: flex;
