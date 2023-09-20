@@ -25,4 +25,4 @@ I am a member of the [Simons collaboration on hidden symmetries and fusion energ
 You can find my [current CV here](assets/pdf/cv.pdf),
 and a list of [publications here](/publications).
 
-I am an organizer of the [CUNY GC Harmonic Analysis & PDE Seminar](https://sites.google.com/view/cuny-hapde/home), and the [Brooklyn College Mathematical Sciences Colloquium](https://).
+I am an organizer of the [CUNY GC Harmonic Analysis & PDE Seminar](https://sites.google.com/view/cuny-hapde/home), and the [Brooklyn College Mathematics Colloquium](https://dginsberg.github.io/bcmc).
