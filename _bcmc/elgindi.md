@@ -1,14 +1,12 @@
 ---
 layout: noheaderpage
 title: Tarek Elgindi (Duke University)
-description: Title TBA
-abstract: Abstract TBA
-location: Location TBA
-img: 
+description: TBA
+abstract: TBA
+location: TBA
+img: /assets/img/elgindi.jpeg
 talkdate: "10/26/2023"
-importance: 2
+importance: 1
 talkyear: 2023
-year: 2
 ---
-
 
