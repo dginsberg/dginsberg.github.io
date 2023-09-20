@@ -10,12 +10,13 @@ horizontal: true
 ---
 
 <!-- pages/projects.md -->
+
+<div class="projects">
 The Brooklyn College Mathematics Colloquium is intended
 for a general audience and talks are accessible to studnents
 and faculty. If you have a suggestion for a speaker or a
-topic, please contact the <a href = "mailto: daniel.ginsberg@brooklyn.cuny.edu">organizers</a>.
+topic, please contact the <a href = "mailto:daniel.ginsberg@brooklyn.cuny.edu">organizers</a>.
 
-<div class="projects">
 {%- if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {%- for year in page.display_categories %}
