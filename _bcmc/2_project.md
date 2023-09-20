@@ -6,7 +6,7 @@ img:
 importance: 2
 year: 1
 talkdate: "11/26/2023"
-talkyear: "2022"
+talkyear: 2022
 ---
 
 Every project has a beautiful feature showcase page.
