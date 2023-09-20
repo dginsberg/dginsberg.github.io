@@ -5,7 +5,7 @@ permalink: /bcmc/
 description: 
 nav: false
 nav_order: 2
-display_categories: [talkyear]
+display_categories: [2022, 2023]
 horizontal: true
 ---
 
@@ -13,14 +13,14 @@ horizontal: true
 <div class="projects">
 {%- if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
-  {%- for category in page.display_categories %}
-  <h2 class="category">{{ category }}</h2>
-  {%- assign categorized_projects = site.bcmc | where: "category", category -%}
-  {%- assign sorted_projects = categorized_projects | sort: "importance" %}
+  {%- for year in page.display_categories %}
+  <h2 class="category">{{ year }}</h2>
+  {%- assign categorized_projects = site.bcmc | where: "year", year -%}
+  {%- assign sorted_projects = categorized_projects | sort: "talkdate" %}
   <!-- Generate cards for each project -->
   {% if page.horizontal -%}
   <div class="container">
-    <div class="row row-cols-2">
+    <div class="row row-cols-1">
     {%- for project in sorted_projects -%}
       {% include projects_horizontal.html %}
     {%- endfor %}
@@ -38,11 +38,11 @@ horizontal: true
 {%- else -%}
 <!-- Display projects without categories -->
 
-  {%- assign sorted_projects = site.bcmc | sort: "importance" -%}
+  {%- assign sorted_projects = site.bcmc | sort: "talkdate" -%}
   <!-- Generate cards for each project -->
   {% if page.horizontal -%}
   <div class="container">
-    <div class="row row-cols-2">
+    <div class="row row-cols-1">
     {%- for project in sorted_projects -%}
       {% include projects_horizontal.html %}
     {%- endfor %}
