@@ -6,7 +6,7 @@
         <div class="container">
           {% if page.permalink != '/' -%}
           <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
-           foo
+            BCMC
           </a>
           {%- elsif site.enable_navbar_social -%}
           <!-- Social Icons -->
@@ -24,12 +24,6 @@
 
           <div class="collapse navbar-collapse text-right" id="navbarNav">
             <ul class="navbar-nav ml-auto flex-nowrap">
-
-              {%- for page in site.pages -%}
-                {% if page.permalink == '/' %}
-                  {% assign about_title = page.title %}
-                {% endif %}
-              {% endfor %}
 
               <!-- About -->
               <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
