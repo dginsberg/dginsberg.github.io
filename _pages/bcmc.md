@@ -2,10 +2,8 @@
 layout: colloqpage
 title: The Brooklyn College Mathematics Colloquium
 permalink: /bcmc/
-description: The Brooklyn College Mathematics Colloquium is intended
-for a general audience and talks are accessible to studnents
-and faculty. If you have a suggestion for a speaker or a
-topic, please contact the nav: false
+description: The Brooklyn College Mathematics Colloquium is intended for a general audience and talks are accessible to students and faculty. If you have a suggestion for a speaker or a topic, please contact the
+nav: false
 nav_order: 2
 display_categories: [2023]
 horizontal: true
