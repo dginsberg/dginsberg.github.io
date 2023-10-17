@@ -6,7 +6,7 @@ abstract: I will discuss a recent result obtained with F. Pasqualotto on finite-
 location: TBA
 talktime: TBA
 img: /assets/img/elgindi.jpeg
-talkdate: "10/26/2023"
+talkdate: "10/24/2023"
 importance: 1
 talkyear: 2023
 ---
