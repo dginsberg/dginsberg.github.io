@@ -5,7 +5,7 @@ permalink: /bcmc/
 description: The Brooklyn College Mathematics Colloquium is intended for a general audience and talks are accessible to students and faculty. If you have a suggestion for a speaker or a topic, please contact the <a href="mailto:daniel.ginsberg@brooklyn.cuny.edu">organizers.</a>
 nav: false
 nav_order: 2
-display_categories: [2023,2024]
+display_categories: [2024,2023]
 horizontal: true
 ---
 
