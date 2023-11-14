@@ -4,7 +4,7 @@ title: Ioakeim Ampatzoglou (Baruch College -- CUNY)
 description: TBA
 location: TBA
 talktime: TBA
-img: /assets/img/elgindi.jpeg
+img: /assets/img/ampatzoglu.jpeg
 talkdate: "TBA"
 importance: 1
 talkyear: 2023
