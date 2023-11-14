@@ -3,8 +3,8 @@ layout: talkpage
 title: Tarek Elgindi (Duke University)
 description: From Instability to Singularity Formation in Incompressible Fluids
 abstract: I will discuss a recent result obtained with F. Pasqualotto on finite-time singularity formation in incompressible fluids in $C^{1,alpha}$. The mechanism for singularity formation is related to the classical Rayleigh-Benard instability. 
-location: TBA
-talktime: TBA
+location: Ingersoll Extension 135
+talktime: 12:30-1:30 pm
 img: /assets/img/elgindi.jpeg
 talkdate: "10/24/2023"
 importance: 1
