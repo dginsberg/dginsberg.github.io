@@ -1,10 +1,10 @@
 ---
 layout: talkpage
-title: Ioakeim Ampatzoglou (Baruch College)
+title: Joonhyun La (Princeton University and KIAS)
 description: TBA
 location: TBA
 talktime: TBA
-img: /assets/img/ampatzoglu.jpeg
+img: /assets/img/la.jpeg
 talkdate: "TBA"
 importance: 1
 talkyear: 2024
