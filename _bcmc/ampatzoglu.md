@@ -1,6 +1,6 @@
 ---
 layout: talkpage
-title: Ioakeim Ampatzoglou (Baruch College -- CUNY)
+title: Ioakeim Ampatzoglou (Baruch College)
 description: TBA
 location: TBA
 talktime: TBA

@@ -1,6 +1,6 @@
 ---
 layout: talkpage
-title: Joonhyun La (Princeton University/KIAS)
+title: Joonhyun La (Princeton University and KIAS)
 description: TBA
 location: TBA
 talktime: TBA
