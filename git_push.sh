@@ -1,8 +1,13 @@
 #!/bin/bash
 
 # Paths to the PDF files
-local_pdf="assets/pdf/cv.pdf"
-source_pdf="/Users/dan/Dropbox (Personal)/Current CV/cv.pdf"
+local_pdf="/Users/daniel.ginsberg/dginsberg.github.io/assets/pdf/cv.pdf"
+source_pdf="/Users/daniel.ginsberg/Library/CloudStorage/Dropbox/Current CV/cv.pdf"
+
+
+echo "Timestamp of $source_pdf: $(stat -c %Y "$source_pdf")"
+echo "Timestamp of $local_pdf: $(stat -c %Y "$local_pdf")"
+
 
 # Check if the source PDF is newer than the local one
 if [[ "$source_pdf" -nt "$local_pdf" ]]; then
