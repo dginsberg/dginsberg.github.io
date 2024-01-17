@@ -2,7 +2,7 @@
 
 # Paths to the PDF files
 local_pdf="assets/pdf/cv.pdf"
-source_pdf="/Users/dan/Dropbox (Personal)/Current CV/cv.pdf"
+source_pdf="/Users/daniel.ginsberg/Library/CloudStorage/Dropbox/Current CV/cv.pdf"
 
 # Check if the source PDF is newer than the local one
 if [[ "$source_pdf" -nt "$local_pdf" ]]; then
