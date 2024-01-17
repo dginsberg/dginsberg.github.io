@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Paths to the PDF files
-local_pdf="assets/pdf/cv.pdf"
+local_pdf="/Users/daniel.ginsberg/dginsberg.github.io/assets/pdf/cv.pdf"
 source_pdf="/Users/daniel.ginsberg/Library/CloudStorage/Dropbox/Current CV/cv.pdf"
 
 
