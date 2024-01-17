@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Paths to the PDF files
-local_pdf="/Users/daniel.ginsberg/dginsberg.github.io/assets/pdf/cv.pdf"
-source_pdf="/Users/daniel.ginsberg/Library/CloudStorage/Dropbox/Current CV/cv.pdf"
+local_pdf="/Users/dginsberg/dginsberg.github.io/assets/pdf/cv.pdf"
+source_pdf="/Users/dginsberg/Library/CloudStorage/Dropbox/Current CV/cv.pdf"
 
 
 echo "Timestamp of $source_pdf: $(stat -c %Y "$source_pdf")"
