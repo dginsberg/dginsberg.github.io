@@ -4,6 +4,11 @@
 local_pdf="assets/pdf/cv.pdf"
 source_pdf="/Users/daniel.ginsberg/Library/CloudStorage/Dropbox/Current CV/cv.pdf"
 
+
+echo "Timestamp of $source_pdf: $(stat -c %Y "$source_pdf")"
+echo "Timestamp of $local_pdf: $(stat -c %Y "$local_pdf")"
+
+
 # Check if the source PDF is newer than the local one
 if [[ "$source_pdf" -nt "$local_pdf" ]]; then
   echo "Copying the newer PDF from $source_pdf to $local_pdf"
