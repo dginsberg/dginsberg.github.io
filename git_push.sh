@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Paths to the PDF files
-local_pdf="MYCV_DESTINATION"
-source_pdf="MYCV_LOCATION"
+local_pdf="$MYCV_DESTINATION"
+source_pdf="$MYCV_LOCATION"
 
 echo "Timestamp of $source_pdf: $(stat -f %m "$source_pdf")"
 echo "Timestamp of $local_pdf: $(stat -f %m "$local_pdf")"
